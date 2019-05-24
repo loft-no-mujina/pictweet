@@ -67,3 +67,5 @@ gem 'sprockets', '3.7.2'
 gem 'kaminari'
 gem 'devise'
 gem 'rspec-rails'
+gem 'factory_bot_rails'
+
