@@ -71,3 +71,6 @@ gem 'devise'
 gem 'rspec-rails'
 gem 'factory_bot_rails'
 
+group :test, :development do 
+  gem 'capybara'
+end
