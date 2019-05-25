@@ -25,6 +25,8 @@ describe TweetsController, type: :controller do
 
   describe 'GET #index' do
     it "populates an array of tweets ordered by created_at DESC" do
+      tweets = create_list(:tweet, 3) 
+      get :index
     end
 
     it "renders the :index template" do
