@@ -26,5 +26,8 @@ $(function(){
       $('.comments').append(html)
       $('.textbox').val('')
     })
+    .fail(function(){
+      alert('error');
+    })
   })
 });
